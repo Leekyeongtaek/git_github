@@ -43,3 +43,10 @@ git checkout 커밋ID
 
 # 다시 현재의 브랜치의 commit 되돌아 올 때
 git checkout 현재 브랜치명
+
+# git pull은 원격의 변경사항을 local로 내려받는 것(working directory까지 반영)
+# git pull = git fetch + git merge
+git pull origin 브랜치명
+
+# 원격의 변경사항을 local에 가져오돼 병합은 하지 않는 것
+git fetch origin main
